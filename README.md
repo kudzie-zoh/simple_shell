@@ -1,1 +1,1 @@
-A simple shell team project to close off C programming Tasks.
+A simple shell team project to close off C Programming Tasks.
