@@ -10,7 +10,7 @@ int _strncmp(const char *s1, const char *s2, size_t n);
  * @s: The string to be searched.
  * @c: The character to be located.
  *
- * Return: If c is found - a pointer to the first occurence.
+ * Return: If c is found - a pointer to the first occurence,
  *         If c is not found - NULL.
  */
 char *_strchr(char *s, char c)
@@ -27,7 +27,7 @@ char *_strchr(char *s, char c)
 }
 
 /**
- * _strspn - Gets the length of a prefix substring.
+ * _strspn - Gets the length of a prefix substring,
  * @s: The string to be searched.
  * @accept: The prefix to be measured.
  *
