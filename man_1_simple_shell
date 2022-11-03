@@ -27,7 +27,7 @@ A pipeline is a sequence of one or more commands separated by one of the control
 .PP
 [command [..ARGS]] [| - |&] [command2 [..ARGS]]
 .PP
-The standard output of command is connected via a pipe to the standard input of command2.  This connection is performed before any redirections specified by the command (see REDIRECTION below).   If
+The standard output of command is connected via a pipe to the standard input of command2. This connection is performed before any redirections specified by the command (see REDIRECTION below).   If
 |&  is  used,  command's standard error, in addition to its standard output, is connected to command2's standard input through the pipe; it is shorthand for 2>&1 |.  This implicit redirection of the
 standard error to the standard output is performed after any redirections specified by the command.
 .SS Lists
