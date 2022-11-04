@@ -38,7 +38,7 @@ char *error_126(char **args)
 }
 
 /**
- * error_127 - Creates an error message for command not found failures
+ * error_127 - Creates an error message for command not found failures.
  * @args: An array of arguments passed to the command.
  *
  * Return: The error string.
