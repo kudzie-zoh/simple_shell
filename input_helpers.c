@@ -45,7 +45,7 @@ char *get_args(char *line, int *exe_ret)
  * call_args - Partitions operators from commands and calls them.
  * @args: An array of arguments.
  * @front: A double pointer to the beginning of args.
- * @exe_ret: The return value of the parent process' last executed command.
+ * @exe_ret: The return value of the parent process' last executed command
  *
  * Return: The return value of the last executed command.
  */
