@@ -71,7 +71,7 @@ void help_cd(void)
 }
 
 /**
- * help_exit - Displays information on the shellby builtin command 'exit'.
+ * help_exit - Displays information on the shellby builtin command 'exit',
  */
 void help_exit(void)
 {
